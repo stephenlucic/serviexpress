@@ -1,0 +1,22 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    
+    <!-- ======= Backbutton ======== -->
+    <ion-buttons slot="start">
+      <ion-back-button
+        *ngIf="backButton"
+        [defaultHref]="backButton"
+      ></ion-back-button>
+    </ion-buttons>
+
+    <!-- ========== Dismiss Modal ========== -->
+    <ion-button slot="end" (click)="dismissModal()" *ngIf="isModal">
+      <ion-icon name="close-circle-outline"></ion-icon>
+    </ion-button>
+
+    <ion-title>
+      <strong>{{ title }}</strong>
+      <div class="admin">SERVIEXPRESS</div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>

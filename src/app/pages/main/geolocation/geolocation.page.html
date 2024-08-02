@@ -1,0 +1,14 @@
+<app-header title="Ubicación"></app-header>
+
+<ion-content class="ion-padding-top ion-text-center">
+  <ion-button  (click)="obtenerMiUbicacion()" class="boton-abajo" expand="block" shape="round" >
+    Obtener Mi Ubicación
+  </ion-button>
+
+  <div class="container">
+    <capacitor-google-map #map></capacitor-google-map>
+
+  </div>
+  
+
+</ion-content>

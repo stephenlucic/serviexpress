@@ -1,0 +1,21 @@
+<app-header title="Perfil"></app-header>
+
+<ion-content class="ion-padding-top ion-text-center">
+
+  <ion-avatar>
+    <img [src]="user()?.image" />
+  </ion-avatar>
+ 
+  
+  <ion-button class="photo-btn" (click)="takeImage()" mod="ios" size="small" shape="round">
+    <ion-icon name="camera-outline"></ion-icon>
+  </ion-button>
+
+  <h2>{{user()?.name}}</h2>
+  
+  <ion-button (click)=" signOut()" expand="block" shape="round">
+    Cerrar Sesión   
+    <ion-icon slot="end" name="exit-outline"></ion-icon>
+  </ion-button>
+
+</ion-content>
