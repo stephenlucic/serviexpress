@@ -74,5 +74,10 @@
     "typescript": "~5.0.2",
     "xxxxx": "^1.0.3"
   },
+  "engines": {
+    "node": ">=20.5.1",
+    "npm": ">=9.8.1"
+  },
+
   "description": "An Ionic project"
 }
