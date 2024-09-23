@@ -2,7 +2,7 @@
     <img src="https://cdn.worldvectorlogo.com/logos/angular-3.svg" alt="Descripción imagen 2" width="300" />
     <img src="https://trbl-services.eu/wp-content/uploads/2018/06/ionic-1.png" alt="Descripción imagen 1" width="120" />
 </div>
-
+<br>
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 # ServiExpress
