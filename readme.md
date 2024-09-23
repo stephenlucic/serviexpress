@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://trbl-services.eu/wp-content/uploads/2018/06/ionic-1.png" alt="Descripción imagen 1" width="200" />
+    <img src="https://trbl-services.eu/wp-content/uploads/2018/06/ionic-1.png" alt="Descripción imagen 1" width="120" />
     <img src="https://cdn.worldvectorlogo.com/logos/angular-3.svg" alt="Descripción imagen 2" width="300" />
 </div>
 
